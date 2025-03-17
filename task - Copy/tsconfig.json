@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "target": "ES6",
+    "module": "CommonJS",
+    "baseUrl": "./",
+    "paths": {
+      "@badeball/cypress-cucumber-preprocessor/*": [
+        "node_modules/@badeball/cypress-cucumber-preprocessor/*"
+      ]
+    }
+  },
+  "include": ["cypress/**/*.ts"]
+}
